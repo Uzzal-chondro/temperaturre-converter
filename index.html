@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempareture to Farenhaite convater</title>
+    <link rel="stylesheet" href="tTf.css" type="text/css" />
+  </head>
+  <body>
+    <div id="mainContainer">
+      <form id="conForm" onsubmit="temCal(); return false">
+        <label for="tem"
+          >it's a Tempareture converter, Farenhaite to Celsius. Check it
+          ...</label
+        ><br /><br />
+        <input type="number" id="tem" name="tem" />
+
+        <select id="tfSelector">
+          <option>°Celsius</option>
+          <option>°Fahrenheit</option></select
+        ><br /><br />
+
+        <input type="submit" value="submit" id="submitBtn" /><br /><br />
+        <span id="showResult">Your result will be show here </span>
+      </form>
+    </div>
+    <script src="tTf.js" type="text/javaScript"></script>
+  </body>
+</html>
